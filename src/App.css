@@ -1,0 +1,30 @@
+
+.bg-film{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.movie-list-header{
+  z-index: 200;
+}
+
+.movie-description{
+  margin-top: 15%;
+}
+
+.movie-description h1,
+.movie-description h2,
+.movie-description h3{
+  text-shadow: 2px 3px 5px #000000;
+}
+
+.movie-description h2,
+.movie-description h3{
+  font-weight: lighter;
+}
